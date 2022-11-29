@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nexo</title>
+    <link rel="shortcut icon" href="../img/Nexo-Crypto-Logo-PNG-Photo.png" type="image/x-icon">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500&family=Montserrat:ital,wght@1,500;1,700&family=MuseoModerno:wght@200;500&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="../estilos/css/style.css">
+
+</head>
+<body class="background__body">
+    <header class="header">
+        <a href="../index.html"><img src="../img/Nexo-Crypto-Logo-PNG-Photo.png" alt="Logo de la Empresa" class="header__logo"></a>
+        <nav>
+            <ul class="header__list">
+                <li class="header__menu"><a href="./nosotros.html" class="header__anchor">Nosotros</a></li>
+                <li class="header__menu"><a href="./servicios.html" class="header__anchor">Servicios</a></li>
+                <li class="header__menu"><a href="./noticias.html" class="header__anchor">Noticias</a></li>
+                <li class="header__menu"><a href="./contacto.html" class="header__anchor">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section>
+            <H1 class="Contacto__title--principal">Contacto Directo con Nosotros</H1>
+            <span class="Contacto__refuerzo--title">Aquí puede llenar el formulario para concretar entrevista, asesoría o gestión directa. ¿Tiene alguna otra consulta? No dude en comunicarse con nosotros.</span>
+        </section>
+        <section class="section__formulario">
+            <nav>
+                <fieldset border="2">
+                    <legend><h2>Datos Personales</h2></legend>
+                    <span>Este formulario tiene campos obligatorios* para una mejor atención</span>
+                    <form action="#" method="get" enctype="text/plain">
+                        <div>
+                            <label for="name">Nombre:</label>
+                            <input type="text" name="name" id="name" required placeholder="Introducir Nombre" required>
+                        </div>
+                        <div>
+                            <label for="name">Apellido:</label>
+                            <input type="text" name="name" id="name" required placeholder="Introducir Apellido" required>
+                        </div>
+                        <strong>Sexo:</strong>
+                        <div>
+                            <label for="male">Hombre</label>
+                            <input type="radio" name="Gender" id="male" value="male">
+                            <label for="female">Mujer</label>
+                            <input type="radio" name="Gender" id="female" value="female">
+                        </div>
+                        <div>
+                            <label for="age">Edad:</label>
+                            <input type="number" name="age" id="age" min="1" max="120" step="1">
+                        </div>
+                        <div>
+                            <label for="email">Email</label>
+                            <input type="email" name="email" id="email" required placeholder="Introducir Email" required>
+                        </div>
+                </fieldset>
+                <fieldset>
+                        <legend><H2>Motivo de consulta</H2></legend>
+                        <div>
+                            <textarea name="bio" id="bio" cols="30" rows="10" required placeholder="Introducir Aqui su consulta"></textarea>
+                        </div>
+                        <strong>Adjuntar Documentación:</strong>
+                        <div>
+                            <input id="file" type="file" name="file">
+                        </div>
+                        <br>
+                        <input type="submit" value="Enviar Formulario de Consulta"></input>
+                    </form>
+                </fieldset>
+                
+            </nav>
+        </section>
+        
+    </main>
+    
+    <footer>
+        <h3 class="footer__title">Mapa del Sitio</h3>
+        <nav>
+            <ul class="header__footer">
+                <li><a href="./nosotros.html" class="footer__menu">Nosotros</a></li>
+                <li><a href="./servicios.html" class="footer__menu">Servicios</a></li>
+                <li><a href="./noticias.html" class="footer__menu">Noticias</a></li>
+                <li><a href="./contacto.html" class="footer__menu">Contacto</a></li>
+            </ul>
+        </nav>
+    </footer>
+</body>
+</html>
