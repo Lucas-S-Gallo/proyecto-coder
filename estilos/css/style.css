@@ -111,6 +111,11 @@
     border-color: black;
     border: solid rgba(30, 65, 129, 0.233);
     font-family: 'Quicksand', sans-serif;
+    transition: color 0.5s;
+}
+
+.btn:hover {
+    color: rgb(24, 84, 173);
 }
 
 
