@@ -478,5 +478,18 @@ a.btn{
     
     
 }
-  
+/*Contacto*/
+.Contacto__title--principal{
+    font-size: 2rem;
+}
+
+.Contacto__refuerzo--title{
+    font-size: 1.7rem;
+    padding: 1rem;
+}
+
+.fieldset__form span {
+    font-size: 1.5rem;
+}
+
 }
