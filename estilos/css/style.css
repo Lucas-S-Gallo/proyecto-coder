@@ -95,7 +95,7 @@
 .hero__slogan--respaldo{
     display: inline-block;
     
-   
+    
     color: rgb(19, 57, 109);
     font-family: 'Quicksand', sans-serif;
     font-size: 50px;
@@ -107,7 +107,7 @@
     align-items: baseline;
     text-decoration: none;
     padding: 1.2rem;
-    background-color: rgba(113, 162, 204, 0.438);
+    background-color: rgba(185, 201, 214, 0.438);
     color: rgb(31, 45, 65);
     font-size: 2.5rem;
     border-radius: .3rem;
@@ -406,76 +406,77 @@ a.btn{
 
 @media only screen and (max-width: 576px) {
 
-    /*Index*/
+/*Index*/
   
-    .background__body {
+.background__body {
   
-      background-size: cover;
+    background-size: cover;
   
-      background-repeat: no-repeat;
+    background-repeat: no-repeat;
   
-    }
+}
   
-    .header {
+.header {
   
-      flex-direction: column;
+    flex-direction: column;
   
-      justify-content: space-between;
+    justify-content: space-between;
   
-    }
+}
   
-    .header__menu {
+.header__menu {
   
-      font-size: 1rem;
+    font-size: 1rem;
   
-    }
+}
   
-    .footer__menu {
+.footer__menu {
   
-      font-size: 1rem;
+    font-size: 1rem;
   
-    }
+}
   
-    .info {
+.info {
   
-      flex-direction: column;
+    flex-direction: column;
   
-    }
+}
   
-    .hero__slogan--box {
+/*.hero__slogan--box {
   
-      display: flex;
+    display: flex;
   
-      flex-direction: column;
+    flex-direction: column;
   
-      align-items: center;
+    align-items: center;
   
-      text-align: justify;
+    text-align: justify;
   
-    }
+}*/
   
-    .hero__slogan {
+.hero__slogan {
   
-      font-size: 3rem;
+    font-size: 3rem;
   
-    }
+}
   
-    .hero__slogan--respaldo {
+.hero__slogan--respaldo {
   
-      font-size: 2rem;
+    font-size: 2rem;
   
-    }
+}
   
-    .btn {
+.btn {
   
-      margin: 1rem;
+    margin: 1rem;
   
-    }
+}
   
-    .tipos__servicios {
+.tipos__servicios {
   
-      display: inline-block;
+    display: inline-block;
+    
+    
+}
   
-    }
-  
-  }
+}
