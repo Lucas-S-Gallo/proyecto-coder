@@ -227,6 +227,7 @@
 }
 
 .hero__nosotros--text{
+    
     text-align: center;
     margin: 1rem 35rem;
     font-family: 'Montserrat', sans-serif;
@@ -263,7 +264,6 @@
 
 .hero__servicios{
     
-    height: 700px;
     margin: 1rem;
     align-items: center;
     background-color: rgba(240, 248, 255, 0.274);
@@ -295,7 +295,6 @@ a.btn{
 /*SECCION SECUNDARIA*/
 
 .tipos__servicios{
-   
     margin: 1rem;
     align-items: center;
     background-color: rgba(240, 248, 255, 0.274);
@@ -323,7 +322,7 @@ a.btn{
 /*PAGINA NOTICIASSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS*/
 
 .hero__noticias{
-    height: 700px;
+    
     margin: 2rem;
     align-items: center;
     background-color: rgba(240, 248, 255, 0.274);
@@ -471,13 +470,14 @@ a.btn{
     margin: 1rem;
   
 }
-  
+/*Servicios*/  
 .tipos__servicios {
-  
+    
     display: inline-block;
-    
-    
+
 }
+
+
 /*Contacto*/
 .Contacto__title--principal{
     font-size: 2rem;
