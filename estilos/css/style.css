@@ -303,32 +303,39 @@ a.btn{
 
 .hero__noticias{
     height: 700px;
-    margin: 1rem;
+    margin: 2rem;
     align-items: center;
     background-color: rgba(240, 248, 255, 0.274);
     border-radius: .3rem;
     
 }.hero__slogan--noticias{
     text-align: center;
-    margin: 2rem;
-    margin-bottom: 8rem;
-    margin: 0rem;
+    margin-bottom: 5rem;
+    margin: 3rem;
     font-family: 'Quicksand', sans-serif;
     color: rgb(16, 68, 139);
-    font-size: 80px;
+    font-size: 50px;
     text-shadow: 1px 1px 0 black
     
 }
 
-.media1{
-    margin-left: 7 rem;
-    width: 700px;
+.media{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-items: center;
+    align-items: center;
+
 }
 
-.media2{
-    margin-bottom: 5rem;
-    margin-left: 8rem;
-    width: 800px;
+.video1{
+    margin: 8 rem;
+   
+}
+
+.video2{
+    
+    margin: 8rem;
+   
 }
 
 /*FIN NOTICIAS*/
@@ -359,11 +366,22 @@ a.btn{
 
 .section__formulario{
     display: flex;
-    justify-content:space-around;
-    padding: 2rem;
-    margin: 3rem;
+    justify-content:center;
+    padding: 1rem;
+    margin: 1rem;
+    
+}
+
+.fieldset__form{
     font-family: 'Quicksand', sans-serif;
     background-color:rgba(240, 248, 255, 0.274);
     font-size: 2rem;
-    border-radius: 3%;
+    border-radius: 1%;
+    margin: 1rem;
+    padding: 2rem;
+}
+
+/*MEDIAS QUERIES*/
+
+@media only screen and (max-with: 576px){
 }

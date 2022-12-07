@@ -32,9 +32,9 @@
             <H1 class="Contacto__title--principal">Contacto Directo con Nosotros</H1>
             <span class="Contacto__refuerzo--title">Aquí puede llenar el formulario para concretar entrevista, asesoría o gestión directa. ¿Tiene alguna otra consulta? No dude en comunicarse con nosotros.</span>
         </section>
-        <section class="section__formulario">
-            <nav>
-                <fieldset border="2">
+        <section >
+            <form class="section__formulario">
+                <fieldset class="fieldset__form">
                     <legend><h2>Datos Personales</h2></legend>
                     <span>Este formulario tiene campos obligatorios* para una mejor atención</span>
                     <form action="#" method="get" enctype="text/plain">
@@ -46,23 +46,12 @@
                             <label for="name">Apellido:</label>
                             <input type="text" name="name" id="name" required placeholder="Introducir Apellido" required>
                         </div>
-                        <strong>Sexo:</strong>
-                        <div>
-                            <label for="male">Hombre</label>
-                            <input type="radio" name="Gender" id="male" value="male">
-                            <label for="female">Mujer</label>
-                            <input type="radio" name="Gender" id="female" value="female">
-                        </div>
-                        <div>
-                            <label for="age">Edad:</label>
-                            <input type="number" name="age" id="age" min="1" max="120" step="1">
-                        </div>
+                        
+                        
                         <div>
                             <label for="email">Email</label>
                             <input type="email" name="email" id="email" required placeholder="Introducir Email" required>
                         </div>
-                </fieldset>
-                <fieldset>
                         <legend><H2>Motivo de consulta</H2></legend>
                         <div>
                             <textarea name="bio" id="bio" cols="30" rows="10" required placeholder="Introducir Aqui su consulta"></textarea>
@@ -76,7 +65,7 @@
                     </form>
                 </fieldset>
                 
-            </nav>
+            </form>
         </section>
         
     </main>
