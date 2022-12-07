@@ -29,6 +29,15 @@
 
 .header__logo{
     max-width: 300px;
+    animation: ease-in animacion 0.5s;
+}
+@keyframes animacion {
+    0%{
+    transform: scale(0)
+    }
+    100%{
+    transform:scale(1)
+    }
 }
 
 .header__list{
@@ -42,6 +51,10 @@
     list-style: none;
     font-size: 2rem;
     text-decoration: solid;
+    transition: all 1s;
+}
+.header__menu:hover{
+    transform: scale(1.3);
 }
 
 .header__anchor{
@@ -267,6 +280,7 @@ p.box__text{
 a.btn{
     margin: 2rem;
     font-size: 2rem;
+    
 }
 /*FIN SECCION PRINCIPAL*/
 
@@ -403,21 +417,23 @@ a.btn{
     .info{
         flex-direction: column;
     }
+    
 
     .hero__slogan{
         font-size: 3rem;
-        
+        justify-content: center;
+        align-items: center;
     }
     .hero__slogan--respaldo{
         font-size: 2rem;
+        justify-content: center;
+        align-items: center;
     }
     .btn{
         margin: 1rem;
     }
 
-    .tipos__servicios{
-        display: inline-block;
-    }
+    
 
 
 }

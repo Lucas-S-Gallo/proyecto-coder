@@ -10,7 +10,8 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Serif:wght@300;400;500&family=Montserrat:ital,wght@1,500;1,700&family=MuseoModerno:wght@200;500&family=Quicksand:wght@400;500;600;700&display=swap" rel="stylesheet">
-    
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
     <link rel="stylesheet" href="./estilos/css/style.css">
 
 </head>
@@ -40,18 +41,21 @@
         
         <section class="info">
             
-            <div class="info__box">
+            <div data-aos="flip-up" data-aos="fade-up"
+            data-aos-duration="1500"class="info__box">
                 <h3 class="info__title">Entrevista</h3>
                 <p>El primer paso al éxito consiste en conocer cual es su inquietud y realizar un plan de soluciones.</p>
                 <a href="./vistas/servicios.html" class="click__aqui">Click Aquí</a>
                 
             </div>
-            <div class="info__box">
+            <div data-aos="flip-up" data-aos="fade-up"
+            data-aos-duration="1500"class="info__box">
                 <h3 class="info__title">Asesoramiento</h3>
                 <p>En este caso, usted puede adquirir toda la información necesaria, previamente evaluada, para facilitar su gestión.</p>
                 <a href="./vistas/servicios.html" class="click__aqui">Click Aquí</a>
             </div>
-            <div class="info__box">
+            <div data-aos="flip-up" data-aos="fade-up"
+            data-aos-duration="1500"class="info__box">
                 <h3 class="info__title">Gestión Directa</h3>
                 <p>Claro, puede parecer complicado, o quizás no disponga del tiempo para realizarla. No se preocupe, nosotros la realizamos en su totalidad.</p>
                 <a href="./vistas/servicios.html" class="click__aqui">Click Aquí</a>
@@ -70,6 +74,9 @@
             </ul>
         </nav>
     </footer>
-
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+      </script>
 </body>
 </html>
