@@ -1,0 +1,37 @@
+/* Imports*/
+
+@import "index";
+
+@import "nosotros";
+
+@import "servicios";
+
+@import "noticias";
+
+@import "contacto";
+
+@import "estilosgenerales";
+
+@import "mediaqueries";
+
+
+
+
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background__body{
+    
+    background: url(../../img/pexels-flo-maderebner-755385.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+

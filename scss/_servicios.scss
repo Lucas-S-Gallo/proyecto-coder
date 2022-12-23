@@ -1,0 +1,57 @@
+/*SECCION SERVICIOSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSSS*/
+
+
+/*SECCION PRINCIPAL*/
+.hero__servicios {
+    margin: 1rem;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.274);
+    border-radius: 0.3rem;
+  }
+  
+  .header__title--principal {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-size: 4rem;
+    color: rgb(7, 66, 150);
+  }
+  
+  span.info__title {
+    font-size: 2.5rem;
+  }
+  
+  p.box__text {
+    font-size: 1.5rem;
+  }
+  
+  a.btn {
+    margin: 2rem;
+    font-size: 2rem;
+  }
+  
+  /*FIN SECCION PRINCIPAL*/
+  /*SECCION SECUNDARIA*/
+  .tipos__servicios {
+    margin: 1rem;
+    align-items: center;
+    background-color: rgba(240, 248, 255, 0.274);
+    border-radius: 0.3rem;
+  }
+  
+  .header__title--secondary {
+    font-family: "Quicksand", sans-serif;
+    text-align: center;
+    font-size: 3rem;
+    color: rgb(7, 66, 150);
+  }
+  
+  .list__container {
+    margin-top: 2rem;
+    text-align: center;
+    list-style: circle;
+    font-size: 2rem;
+    font-family: "Montserrat", sans-serif;
+  }
+  
+  /*FIN SECCION SECUNDARIA*/
+  /*FIN PAGINA SERVICIOS*/
