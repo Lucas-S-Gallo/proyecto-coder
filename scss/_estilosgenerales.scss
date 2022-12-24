@@ -53,18 +53,20 @@
         font-size: 2rem;
         text-decoration: solid;
         transition: all 1s;
+        
+        .header__anchor{
+            display: inline-block;
+            text-decoration: none;
+            color: rgb(9, 71, 187);
+            font-family: 'Quicksand', sans-serif;
+            text-shadow: .4px .4px 0 black;
+        }
     }
+
     .header__menu:hover{
         transform: scale(1.3);
     }
 
-    .header__anchor{
-        display: inline-block;
-        text-decoration: none;
-        color: rgb(9, 71, 187);
-        font-family: 'Quicksand', sans-serif;
-        text-shadow: .4px .4px 0 black;;
-    }
 }
 /*FIN HEADER*/
 
